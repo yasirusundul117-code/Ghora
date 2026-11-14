@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GHORA BLACK PEPPER — Creative Web Developer</title>
+  <meta name="description" content="GHORA BLACK PEPPER is a creative web developer crafting modern, responsive and engaging digital experiences for businesses and individuals.">
+  <meta name="keywords" content="web developer, web design, responsive websites, GHORA BLACK PEPPER, portfolio">
+  <meta name="author" content="GHORA BLACK PEPPER">
+  <meta name="theme-color" content="#090909">
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GHORA BLACK PEPPER — Creative Web Developer">
+  <meta property="og:description" content="Crafting digital experiences that make an impact. Modern, responsive and engaging websites.">
+  <meta property="og:site_name" content="GHORA BLACK PEPPER">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand" aria-label="GHORA BLACK PEPPER — home">
+        <span class="brand-mark">GBP</span>
+        <span class="brand-name">GHORA <span class="gold">BLACK PEPPER</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link nav-cta">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content reveal">
+        <p class="hero-eyebrow"><span class="dot"></span> Web Developer &amp; Digital Craftsman</p>
+        <h1 class="hero-title">
+          CRAFTING DIGITAL<br>
+          <span class="gold-text">EXPERIENCES</span> THAT<br>
+          MAKE AN IMPACT.
+        </h1>
+        <p class="hero-sub">
+          I'm Ghora Black Pepper, a creative web developer building modern,
+          responsive and engaging digital experiences for businesses and individuals.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-gold">View My Work
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-outline">Let's Work Together</a>
+        </div>
+
+        <div class="socials" aria-label="Social media links">
+          <a href="https://www.instagram.com/ghora_blackpepper/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12.02c0 4.42 2.87 8.18 6.84 9.5.5.1.68-.21.68-.47v-1.67c-2.78.6-3.37-1.35-3.37-1.35-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .26.18.58.69.47A10.02 10.02 0 0 0 22 12.02C22 6.48 17.52 2 12 2Z"/></svg>
+          </a>
+          <a href="https://wa.me/" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.1c-.24.66-1.37 1.26-1.92 1.3-.5.05-1.12.24-3.77-.78-3.19-1.26-5.2-4.5-5.36-4.71-.15-.21-1.27-1.7-1.27-3.23 0-1.53.8-2.28 1.09-2.59.28-.31.62-.39.83-.39l.6.01c.19.01.45-.07.7.54.26.62.88 2.13.96 2.28.08.16.13.34.02.54-.1.21-.16.34-.31.52l-.47.55c-.15.15-.3.32-.13.63.17.31.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.39-.24.65-.15.27.1 1.7.8 2 .94.29.15.49.22.56.34.07.13.07.72-.17 1.39Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-2" aria-hidden="true">
+        <div class="code-card">
+          <div class="code-card-header">
+            <span class="cc-dot r"></span><span class="cc-dot y"></span><span class="cc-dot g"></span>
+            <span class="cc-title">developer.js</span>
+          </div>
+          <pre class="code-card-body"><code><span class="tk-kw">const</span> <span class="tk-var">developer</span> = {
+  name: <span class="tk-str">"Ghora Black Pepper"</span>,
+  passion: <span class="tk-str">"clean, modern web"</span>,
+  builds: [<span class="tk-str">"responsive"</span>, <span class="tk-str">"fast"</span>, <span class="tk-str">"elegant"</span>],
+  <span class="tk-fn">craft</span>: () =&gt; <span class="tk-str">"impact"</span>
+};
+
+<span class="tk-cm">// pixel by pixel, with purpose.</span></code></pre>
+        </div>
+        <div class="float-badge badge-1">&lt;/&gt;</div>
+        <div class="float-badge badge-2">✦</div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint" aria-label="Scroll to about section"><span></span></a>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 — About</p>
+        <h2 class="section-title">BEHIND <span class="gold-text">THE CODE</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg>
+              <span>Profile Photo</span>
+            </div>
+          </div>
+          <div class="portrait-ring" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-text reveal delay-1">
+          <p class="lead">
+            Ghora Black Pepper is a web developer focused on creating beautiful,
+            functional and user-friendly websites.
+          </p>
+          <p>
+            Every project starts with an idea — my job is to shape that idea into
+            a digital experience people enjoy using. From the first wireframe to the
+            final line of code, I combine creative design thinking with solid
+            technical skills to deliver websites that look stunning and work
+            flawlessly on every device.
+          </p>
+          <p>
+            My approach is simple: understand the goal, design with intention,
+            and build with care. Whether it's a business website, a personal
+            portfolio or an online store, the focus stays the same — clarity,
+            performance and a memorable user experience.
+          </p>
+
+          <ul class="about-points">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Clean, maintainable code
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Design-driven development
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Mobile-first, always responsive
+            </li>
+          </ul>
+
+          <a href="https://www.instagram.com/ghora_blackpepper/" target="_blank" rel="noopener" class="insta-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            Follow the journey on Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 — Services</p>
+        <h2 class="section-title">WHAT I <span class="gold-text">BUILD</span></h2>
+        <p class="section-sub">From idea to launch — websites designed to look great and perform even better.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6M13 4l-2 16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Website Development</h3>
+          <p>Custom-built websites from scratch — clean code, modern standards and pixel-perfect execution.</p>
+        </article>
+
+        <article class="service-card reveal delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 11h.01M15 11h.01" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Business Websites</h3>
+          <p>Professional online presence for your business that builds trust and turns visitors into customers.</p>
+        </article>
+
+        <article class="service-card reveal delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Portfolio Websites</h3>
+          <p>Elegant personal showcases that put your work in the spotlight and make a lasting impression.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3h2l2.4 12.4A2 2 0 0 0 9.4 17H18a2 2 0 0 0 2-1.6L21.5 8H6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+          </div>
+          <h3>E-commerce Website Design</h3>
+          <p>Online stores designed for smooth browsing, easy purchasing and confident customers.</p>
+        </article>
+
+        <article class="service-card reveal delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Responsive Website Design</h3>
+          <p>Layouts that adapt beautifully to every screen — phone, tablet and desktop alike.</p>
+        </article>
+
+        <article class="service-card reveal delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12a9 9 0 1 1-2.6-6.4M21 4v5h-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Website Redesign</h3>
+          <p>Give your existing site a fresh, modern look with improved structure, speed and user experience.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">03 — Portfolio</p>
+        <h2 class="section-title">FEATURED <span class="gold-text">PROJECTS</span></h2>
+        <p class="section-sub">
+          Below are <strong>demonstration projects</strong> created to showcase design
+          and development style. They are placeholders until real client work is added.
+        </p>
+      </div>
+
+      <div class="filter-bar reveal" role="tablist" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+        <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="project-card reveal" data-category="business">
+          <div class="project-thumb">
+            <span class="demo-tag">Demo Project</span>
+            <div class="thumb-art art-1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Aurora Consulting</h3>
+            <p>A clean corporate website concept for a consulting firm — service pages, contact flow and a refined editorial layout.</p>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-gold" aria-label="Live demo of Aurora Consulting">Live Demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="Source code of Aurora Consulting">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-1" data-category="portfolio">
+          <div class="project-thumb">
+            <span class="demo-tag">Demo Project</span>
+            <div class="thumb-art art-2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Lumen Gallery</h3>
+            <p>A photography portfolio concept with a masonry gallery, dark theme and immersive image-first browsing.</p>
+            <div class="tags"><span>HTML5</span><span>CSS Grid</span><span>JavaScript</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-gold" aria-label="Live demo of Lumen Gallery">Live Demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="Source code of Lumen Gallery">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-2" data-category="ecommerce">
+          <div class="project-thumb">
+            <span class="demo-tag">Demo Project</span>
+            <div class="thumb-art art-3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 3h2l2.4 12.4A2 2 0 0 0 9.4 17H18a2 2 0 0 0 2-1.6L21.5 8H6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Nova Store</h3>
+            <p>A minimalist e-commerce storefront concept with product grids, cart interactions and a smooth checkout flow.</p>
+            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-gold" aria-label="Live demo of Nova Store">Live Demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="Source code of Nova Store">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">04 — Toolbox</p>
+        <h2 class="section-title">SKILLS &amp; <span class="gold-text">TECHNOLOGIES</span></h2>
+        <p class="section-sub">The core technologies used to design and build every project.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-badge reveal">
+          <div class="skill-ring" style="--p:95"><span>95%</span></div>
+          <h3>HTML5</h3>
+          <p>Semantic, accessible structure</p>
+        </div>
+        <div class="skill-badge reveal delay-1">
+          <div class="skill-ring" style="--p:90"><span>90%</span></div>
+          <h3>CSS3</h3>
+          <p>Layouts, animation &amp; styling</p>
+        </div>
+        <div class="skill-badge reveal delay-2">
+          <div class="skill-ring" style="--p:85"><span>85%</span></div>
+          <h3>JavaScript</h3>
+          <p>Interactivity &amp; logic</p>
+        </div>
+        <div class="skill-badge reveal">
+          <div class="skill-ring" style="--p:92"><span>92%</span></div>
+          <h3>Responsive Web Design</h3>
+          <p>Flawless on every screen</p>
+        </div>
+        <div class="skill-badge reveal delay-1">
+          <div class="skill-ring" style="--p:88"><span>88%</span></div>
+          <h3>UI/UX Design</h3>
+          <p>Interfaces people love</p>
+        </div>
+        <div class="skill-badge reveal delay-2">
+          <div class="skill-ring" style="--p:80"><span>80%</span></div>
+          <h3>Git &amp; GitHub</h3>
+          <p>Version control &amp; collaboration</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY CHOOSE ME ===================== -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">05 — The Difference</p>
+        <h2 class="section-title">WHY CHOOSE <span class="gold-text">GHORA BLACK PEPPER</span></h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-item reveal">
+          <span class="why-num">01</span>
+          <h3>Creative Design Approach</h3>
+          <p>Every website is designed to be distinctive — no templates, no shortcuts, just original thinking.</p>
+        </div>
+        <div class="why-item reveal delay-1">
+          <span class="why-num">02</span>
+          <h3>Responsive Layouts</h3>
+          <p>Mobile-first development ensures your site looks and works perfectly on every device.</p>
+        </div>
+        <div class="why-item reveal delay-2">
+          <span class="why-num">03</span>
+          <h3>User-Friendly Experiences</h3>
+          <p>Intuitive navigation and clear structure keep visitors engaged and moving toward your goal.</p>
+        </div>
+        <div class="why-item reveal">
+          <span class="why-num">04</span>
+          <h3>Attention to Detail</h3>
+          <p>Spacing, typography, alignment — the small things that make a website feel premium.</p>
+        </div>
+        <div class="why-item reveal delay-1">
+          <span class="why-num">05</span>
+          <h3>Performance-Conscious Development</h3>
+          <p>Fast-loading, lightweight code that respects your visitors' time and data.</p>
+        </div>
+        <div class="why-item reveal delay-2">
+          <span class="why-num">06</span>
+          <h3>Communication &amp; Collaboration</h3>
+          <p>Clear updates and honest feedback throughout every stage of the project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">06 — Contact</p>
+        <h2 class="section-title">LET'S BUILD SOMETHING <span class="gold-text">AMAZING.</span></h2>
+        <p class="section-sub">Have a project in mind? Reach out — I'd love to hear about it.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="info-card">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.1c-.24.66-1.37 1.26-1.92 1.3-.5.05-1.12.24-3.77-.78-3.19-1.26-5.2-4.5-5.36-4.71-.15-.21-1.27-1.7-1.27-3.23 0-1.53.8-2.28 1.09-2.59.28-.31.62-.39.83-.39l.6.01c.19.01.45-.07.7.54.26.62.88 2.13.96 2.28.08.16.13.34.02.54-.1.21-.16.34-.31.52l-.47.55c-.15.15-.3.32-.13.63.17.31.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.39-.24.65-.15.27.1 1.7.8 2 .94.29.15.49.22.56.34.07.13.07.72-.17 1.39Z" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <h3>WhatsApp</h3>
+              <p>Fastest way to reach me</p>
+              <a href="https://wa.me/" target="_blank" rel="noopener" class="info-link">Chat on WhatsApp →</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </div>
+            <div>
+              <h3>Instagram</h3>
+              <p>Work in progress &amp; updates</p>
+              <a href="https://www.instagram.com/ghora_blackpepper/" target="_blank" rel="noopener" class="info-link">@ghora_blackpepper →</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>For detailed project briefs</p>
+              <a href="mailto:hello@example.com" class="info-link">hello@example.com →</a>
+            </div>
+          </div>
+
+          <p class="form-note">
+            Note: this demo form validates your input locally — no message is sent
+            until a backend or form service is connected. For now, please use
+            WhatsApp, Instagram or email above.
+          </p>
+        </div>
+
+        <form class="contact-form reveal delay-1" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required minlength="2">
+              <small class="error-msg" id="nameError"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              <small class="error-msg" id="emailError"></small>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Let's build a website" required minlength="3">
+            <small class="error-msg" id="subjectError"></small>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required minlength="10"></textarea>
+            <small class="error-msg" id="messageError"></small>
+          </div>
+          <button type="submit" class="btn btn-gold btn-full">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <span class="brand-mark">GBP</span>
+          <span class="brand-name">GHORA <span class="gold">BLACK PEPPER</span></span>
+        </a>
+        <p>Creative web development with a bold, modern edge.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/ghora_blackpepper/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12.02c0 4.42 2.87 8.18 6.84 9.5.5.1.68-.21.68-.47v-1.67c-2.78.6-3.37-1.35-3.37-1.35-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .26.18.58.69.47A10.02 10.02 0 0 0 22 12.02C22 6.48 17.52 2 12 2Z"/></svg>
+        </a>
+        <a href="https://wa.me/" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.1c-.24.66-1.37 1.26-1.92 1.3-.5.05-1.12.24-3.77-.78-3.19-1.26-5.2-4.5-5.36-4.71-.15-.21-1.27-1.7-1.27-3.23 0-1.53.8-2.28 1.09-2.59.28-.31.62-.39.83-.39l.6.01c.19.01.45-.07.7.54.26.62.88 2.13.96 2.28.08.16.13.34.02.54-.1.21-.16.34-.31.52l-.47.55c-.15.15-.3.32-.13.63.17.31.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.39-.24.65-.15.27.1 1.7.8 2 .94.29.15.49.22.56.34.07.13.07.72-.17 1.39Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> GHORA BLACK PEPPER. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
